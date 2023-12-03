@@ -16,7 +16,7 @@ h1{font-size: 100px;}
 header{
     border: 1px solid red;
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
 }
 .logo,
 .menu,

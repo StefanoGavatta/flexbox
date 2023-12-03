@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 
@@ -15,6 +16,7 @@ h1{font-size: 100px;}
 .item{
     background-color: #ccc;
     flex-basis: 50%;
+    padding: 20px;
 }
 
 @media (width: 767px) {

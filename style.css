@@ -9,8 +9,16 @@ h1{font-size: 100px;}
 .container{
     border: 1px solid red ;
     display: flex;
+    flex-wrap: wrap;
 }
 
 .item{
     background-color: #ccc;
+    flex-basis: 50%;
 }
+
+@media (width: 767px) {
+    
+  }
+
+

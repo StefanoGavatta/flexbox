@@ -13,14 +13,25 @@ h1{font-size: 100px;}
     flex-wrap: wrap;
 }
 
+header{
+    border: 1px solid red;
+    display: flex;
+    justify-content: flex-end;
+}
+.logo,
+.menu,
+.cta{min-width: 100px;border: 1px solid red;}
+
 .item{
     background-color: #ccc;
     flex-basis: 50%;
     padding: 20px;
 }
 
-@media (width: 767px) {
-    
+@media (max-width: 767px) {
+    .item{
+        flex-basis: 50%;
+    }
   }
 
 
